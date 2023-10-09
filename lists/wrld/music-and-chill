@@ -1,0 +1,2 @@
+0.0.0.0 m.k-cdn.xyz
+#0.0.0.0 b.search.kinashi.net #this breaks search, it's implemented serverside but just refers to url indices in the world
