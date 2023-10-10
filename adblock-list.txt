@@ -1,0 +1,42 @@
+# AdAway default blocklist
+# Blocking ad providers and some analytics providers
+#
+# Project home page:
+# https://github.com/natarii/vrchat-domain-blocklist
+#
+# Fetch the latest version of this file:
+# https://raw.githubusercontent.com/natarii/vrchat-domain-blocklist/main/adblock-list.txt
+#
+# License:
+# CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
+#
+# Contribution by:
+# itsvrl
+# Further changes and contributors maintained in the commit history at
+# https://github.com/natarii/vrchat-domain-blocklist/commits/main
+#
+# Contribute:
+# Create an issue at https://github.com/natarii/vrchat-domain-blocklist/issues
+#
+
+vrc.citrusxr.cyou
+r.urei.si
+
+#this breaks VRCanvas but i don't care
+prismic.net
+
+#breaks playback
+vr-m.net 
+m.k-cdn.xyz
+
+#this breaks search, it's implemented serverside but just refers to url indices in the world
+#b.search.kinashi.net
+acchosen.github.io
+
+#prefab exploits a client vulnerability to bypass http request rate limiting
+api.yamachan.moe 
+i.adli.ly
+t.adli.ly
+o1125869.ingest.sentry.io
+api.lab.amplitude.com
+api2.amplitude.com
