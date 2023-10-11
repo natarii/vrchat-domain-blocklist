@@ -1,5 +1,5 @@
-# AdAway default blocklist
-# Blocking ad providers and some analytics providers
+# VRChat AdAway blocklist
+# Blocking ad providers and some tracking analytics that is injected to your VRChat instance
 #
 # Project home page:
 # https://github.com/natarii/vrchat-domain-blocklist
