@@ -1,0 +1,42 @@
+# VRChat AdAway blocklist
+# Blocking ad providers and some tracking analytics that is injected to your VRChat instance
+#
+# Project home page:
+# https://github.com/natarii/vrchat-domain-blocklist
+#
+# Fetch the latest version of this file:
+# https://raw.githubusercontent.com/natarii/vrchat-domain-blocklist/main/generated/adblock-list.txt
+#
+# License:
+# CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
+#
+# Contribution by:
+# itsvrl
+# Further changes and contributors maintained in the commit history at
+# https://github.com/natarii/vrchat-domain-blocklist/commits/main
+#
+# Contribute:
+# Create an issue at https://github.com/natarii/vrchat-domain-blocklist/issues
+#
+
+#used all over vrc client and sdk
+api.lab.amplitude.com
+api2.amplitude.com
+o1125869.ingest.sentry.io
+#no idea what will actually be used since it hasn't launched yet, these two already seen "in the wild"
+i.adli.ly
+t.adli.ly
+#prefab exploits a client vulnerability to bypass http request rate limiting
+api.yamachan.moe
+#rainy road, cruzeiro brasil, ...
+biakawaiibr.github.io
+acchosen.github.io
+m.k-cdn.xyz
+#b.search.kinashi.net #this breaks search, it's implemented serverside but just refers to url indices in the world
+#found in Idle Home, probably in others as well
+makimaki.dev
+#vr-m.net #breaks playback
+prismic.net #this breaks VRCanvas but i don't care
+#world exploits multiple client vulnerabilities, also spams client log to obfuscate what it's doing
+r.urei.si
+vrc.citrusxr.cyou

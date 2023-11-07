@@ -1,0 +1,59 @@
+name: Compile Lists
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  compile-hosts:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Compile into hosts file format
+      run: |
+        # Create the generated folder if it doesn't exist
+        mkdir -p generated
+
+        # Concatenate all hosts files into one
+        cat lists/*/* > generated/hosts
+
+    - name: Compile into adblock list format
+      run: |
+        echo "# VRChat AdAway blocklist
+        # Blocking ad providers and some tracking analytics that is injected to your VRChat instance
+        #
+        # Project home page:
+        # https://github.com/natarii/vrchat-domain-blocklist
+        #
+        # Fetch the latest version of this file:
+        # https://raw.githubusercontent.com/natarii/vrchat-domain-blocklist/main/generated/adblock-list.txt
+        #
+        # License:
+        # CC Attribution 3.0 (http://creativecommons.org/licenses/by/3.0/)
+        #
+        # Contribution by:
+        # itsvrl
+        # Further changes and contributors maintained in the commit history at
+        # https://github.com/natarii/vrchat-domain-blocklist/commits/main
+        #
+        # Contribute:
+        # Create an issue at https://github.com/natarii/vrchat-domain-blocklist/issues
+        #
+        " > generated/adblock-list.txt
+        # Remove instances of 0.0.0.0 and add to file
+        sed 's/0.0.0.0 //' generated/hosts >> generated/adblock-list.txt
+
+    - name: Commit & Push changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "List Compiler Action"
+
+        git add generated/hosts
+        git add generated/adblock-list.txt
+        git commit -m "Compiled hosts files"
+        git push
