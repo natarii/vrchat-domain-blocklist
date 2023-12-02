@@ -19,3 +19,6 @@
 #world exploits multiple client vulnerabilities, also spams client log to obfuscate what it's doing
 0.0.0.0 r.urei.si
 0.0.0.0 vrc.citrusxr.cyou
+#found in vket2023w and one of the prior ones
+#note, this is in vrc's trusted url list
+0.0.0.0 vcap.vket.chat

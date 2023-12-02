@@ -40,3 +40,6 @@ prismic.net #this breaks VRCanvas but i don't care
 #world exploits multiple client vulnerabilities, also spams client log to obfuscate what it's doing
 r.urei.si
 vrc.citrusxr.cyou
+#found in vket2023w and one of the prior ones
+#note, this is in vrc's trusted url list
+vcap.vket.chat
