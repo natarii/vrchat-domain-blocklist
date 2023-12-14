@@ -23,9 +23,14 @@
 api.lab.amplitude.com
 api2.amplitude.com
 o1125869.ingest.sentry.io
-#no idea what will actually be used since it hasn't launched yet, these two already seen "in the wild"
+#NOTE: adlily has currently discontinued operations at the "request" of vrchat: https://twitter.com/ariesrclark/status/1735089168173121608
+adli.ly
+app.adli.ly
+api-staging.adli.ly
 i.adli.ly
 t.adli.ly
+t-staging.adli.ly
+via.adli.ly
 #prefab exploits a client vulnerability to bypass http request rate limiting
 api.yamachan.moe
 #rainy road, cruzeiro brasil, ...
