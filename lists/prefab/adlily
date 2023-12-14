@@ -1,3 +1,8 @@
-#no idea what will actually be used since it hasn't launched yet, these two already seen "in the wild"
+#NOTE: adlily has currently discontinued operations at the "request" of vrchat: https://twitter.com/ariesrclark/status/1735089168173121608
+0.0.0.0 adli.ly
+0.0.0.0 app.adli.ly
+0.0.0.0 api-staging.adli.ly
 0.0.0.0 i.adli.ly
 0.0.0.0 t.adli.ly
+0.0.0.0 t-staging.adli.ly
+0.0.0.0 via.adli.ly
