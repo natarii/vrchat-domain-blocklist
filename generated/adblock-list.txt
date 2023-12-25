@@ -36,6 +36,8 @@ api.yamachan.moe
 #rainy road, cruzeiro brasil, ...
 biakawaiibr.github.io
 acchosen.github.io
+tht199812.github.io
+api.metaplazavr.com #probably advertising, although currently NXDOMAIN
 m.k-cdn.xyz
 #b.search.kinashi.net #this breaks search, it's implemented serverside but just refers to url indices in the world
 api.tltp.team #user activity tracking
@@ -43,9 +45,11 @@ api.tltp.team #user activity tracking
 makimaki.dev
 #vr-m.net #breaks playback
 prismic.net #this breaks VRCanvas but i don't care
+cheerioworld.github.io
 #world exploits multiple client vulnerabilities, also spams client log to obfuscate what it's doing
 r.urei.si
 vrc.citrusxr.cyou
+bronx616.github.io #ads
 #found in vket2023w and one of the prior ones
 #note, this is in vrc's trusted url list
 vcap.vket.chat
