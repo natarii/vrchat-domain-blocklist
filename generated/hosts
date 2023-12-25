@@ -17,6 +17,7 @@
 0.0.0.0 acchosen.github.io
 0.0.0.0 m.k-cdn.xyz
 #0.0.0.0 b.search.kinashi.net #this breaks search, it's implemented serverside but just refers to url indices in the world
+0.0.0.0 api.tltp.team #user activity tracking
 #found in Idle Home, probably in others as well
 0.0.0.0 makimaki.dev
 #0.0.0.0 vr-m.net #breaks playback

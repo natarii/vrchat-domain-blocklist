@@ -38,6 +38,7 @@ biakawaiibr.github.io
 acchosen.github.io
 m.k-cdn.xyz
 #b.search.kinashi.net #this breaks search, it's implemented serverside but just refers to url indices in the world
+api.tltp.team #user activity tracking
 #found in Idle Home, probably in others as well
 makimaki.dev
 #vr-m.net #breaks playback
