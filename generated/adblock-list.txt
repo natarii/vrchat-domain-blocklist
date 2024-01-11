@@ -40,6 +40,7 @@ tht199812.github.io
 api.metaplazavr.com #probably advertising, although currently NXDOMAIN
 m.k-cdn.xyz
 #b.search.kinashi.net #this breaks search, it's implemented serverside but just refers to url indices in the world
+4liced.github.io
 api.tltp.team #user activity tracking
 #found in Idle Home, probably in others as well
 makimaki.dev
