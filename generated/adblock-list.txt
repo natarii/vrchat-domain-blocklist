@@ -44,6 +44,7 @@ m.k-cdn.xyz
 api.tltp.team #user activity tracking
 #found in Idle Home, probably in others as well
 makimaki.dev
+us-central1-vrc-mikinel-world-data.cloudfunctions.net #user activity tracking
 #vr-m.net #breaks playback
 prismic.net #this breaks VRCanvas but i don't care
 cheerioworld.github.io

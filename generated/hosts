@@ -23,6 +23,7 @@
 0.0.0.0 api.tltp.team #user activity tracking
 #found in Idle Home, probably in others as well
 0.0.0.0 makimaki.dev
+0.0.0.0 us-central1-vrc-mikinel-world-data.cloudfunctions.net #user activity tracking
 #0.0.0.0 vr-m.net #breaks playback
 0.0.0.0 prismic.net #this breaks VRCanvas but i don't care
 0.0.0.0 cheerioworld.github.io
