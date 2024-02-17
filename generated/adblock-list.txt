@@ -51,6 +51,8 @@ cheerioworld.github.io
 #world exploits multiple client vulnerabilities, also spams client log to obfuscate what it's doing
 r.urei.si
 vrc.citrusxr.cyou
+#"Starlight lane" and probably other worlds by tp.jp
+vrc-world-exporter.tp-lab.net #user activity tracking
 bronx616.github.io #ads
 #found in vket2023w and one of the prior ones
 #note, this is in vrc's trusted url list

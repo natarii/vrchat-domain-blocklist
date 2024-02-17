@@ -30,6 +30,8 @@
 #world exploits multiple client vulnerabilities, also spams client log to obfuscate what it's doing
 0.0.0.0 r.urei.si
 0.0.0.0 vrc.citrusxr.cyou
+#"Starlight lane" and probably other worlds by tp.jp
+0.0.0.0 vrc-world-exporter.tp-lab.net #user activity tracking
 0.0.0.0 bronx616.github.io #ads
 #found in vket2023w and one of the prior ones
 #note, this is in vrc's trusted url list
